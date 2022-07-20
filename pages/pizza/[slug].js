@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Layout from "../../components/Layout";
 import { client, urlFor } from "../../lib/client";
-import Image from "next/Image";
+import Image from "next/image";
 import css from "../../styles/Pizza.module.css";
 import LeftArrow from "../../assets/arrowLeft.png";
 import RightArrow from "../../assets/arrowRight.png";

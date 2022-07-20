@@ -1,6 +1,6 @@
 import React from "react";
 import css from "../styles/Menu.module.css";
-import Image from "next/Image";
+import Image from "next/image";
 import { urlFor } from "../lib/client";
 import Link from "next/Link";
 
@@ -24,8 +24,9 @@ const Menu = ({ pizzas }) => {
                     loader={() => src}
                     src={src}
                     alt=""
-                    objectFill="cover"
+                    objectFit="cover"
                     layout="fill"
+                    unoptimized
                   />
                 </div>
               </Link>

@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../styles/Hero.module.css";
 import Cherry from "../assets/Cherry.png";
-import Image from "next/Image";
+import Image from "next/image";
 import HeroImage from "../assets/HeroImage.png";
 import { UilPhone } from "@iconscout/react-unicons";
 import Pizza1 from "../assets/p1.jpg";
@@ -53,7 +53,7 @@ const Hero = () => {
 
         <div className={css.Pizza}>
           <div>
-            <Image src={Pizza1} alt="" layout="intrinsic" objectFit="cover" />
+            <Image src={Pizza1} unoptimized alt="" layout="intrinsic" objectFit="cover" />
           </div>
           <div className={css.details}>
             <span>Italian Pizza</span>

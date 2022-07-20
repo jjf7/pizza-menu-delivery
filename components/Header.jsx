@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/Logo.png";
 import css from "../styles/Header.module.css";
-import Image from "next/Image";
+import Image from "next/image";
 import Link from "next/Link";
 import { UilShoppingBag } from "@iconscout/react-unicons";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../styles/Footer.module.css";
 import { UilFacebook, UilGithub, UilInstagram } from "@iconscout/react-unicons";
-import Image from "next/Image";
+import Image from "next/image";
 import Logo from "../assets/Logo.png";
 
 const Footer = () => {
