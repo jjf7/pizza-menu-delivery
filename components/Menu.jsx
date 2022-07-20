@@ -2,7 +2,7 @@ import React from "react";
 import css from "../styles/Menu.module.css";
 import Image from "next/image";
 import { urlFor } from "../lib/client";
-import Link from "next/Link";
+import Link from "next/link";
 
 const Menu = ({ pizzas }) => {
   return (
